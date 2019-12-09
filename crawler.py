@@ -47,10 +47,10 @@ class Crawler(object):
                      'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6'}
         ).content.decode()
         sleep(0.1)
-        # TODO: parse the response and get table with etree
+        # TODO: parse the response and get dates, titles and relative url with etree
         contents = list()
-        for row in table:
-            # TODO: 1. parse dates, titles and urls from row
+        for rel_url in rel_urls:
+            # TODO: 1. concatenate relative url to full url
             #       2. for each url call self.crawl_content
             #          to crawl the content
             #       3. append the date, title and content to
