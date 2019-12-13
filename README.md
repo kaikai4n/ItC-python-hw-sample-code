@@ -2,4 +2,4 @@
 TA sample codes for Introduction to Computer 
  
 # Spec
-Please reference to the [homework spec](https://hackmd.io/@18uoJVgyT9KMeCBZDWu9Ng/HkgFEpyRr
+Please reference to the [homework spec](https://hackmd.io/@18uoJVgyT9KMeCBZDWu9Ng/HkgFEpyRr)
